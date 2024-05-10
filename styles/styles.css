@@ -1,0 +1,159 @@
+/**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: #908e8ac;
+    color:#333;
+        width: 100%;
+        height: 100%;
+}
+.navbar{
+display: flex;
+flex-direction: row;
+padding-bottom: 20px;
+border-right: none;
+border-left: none;
+border-top: none;
+border-bottom: 1px solid #334;
+}
+.title{
+    margin-left: 40px;
+    margin-top: 70px;
+    font-size: medium;
+    
+}
+.logo img{
+    width:200px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid rgb(2, 46, 21);
+    border-radius: 5%;
+    opacity: 0.9;
+    }
+   
+.links{
+    margin-left: 40px;
+    margin-top: 80px;
+    }
+    .links ul li{
+    display: inline-block;
+    }
+    .links ul li a{
+    text-decoration: none;
+    font-size: larger;
+    margin-left: 50px;
+    color: #333;
+    }  
+
+.logout{
+display: flex;
+flex-direction: row;
+margin-top: 40px;
+margin-left: 200px;
+}
+.logout .img1{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+    
+}
+    .logout p{
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+   
+    .logout button{
+        height: 2rem;
+        width: 50px;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    .logo img{
+      width: 150px;
+    }
+    .logout p{
+      font-size: larger;
+    }
+    @media (orientation:portrait){
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    
+    }
+    body{
+        background: #e5f9e5cc ;
+        color:#333;
+            width: 100%;
+            height: 100%;
+    }
+    .navbar{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 1px solid #334;
+    }
+    .title{
+        margin-left: 20px;
+        margin-top: 30px;
+        font-size: medium;
+        
+    }
+    .logo img{
+        width:200px;
+        margin-left: 40px;
+        margin-top: 10px;
+        border: 1px solid rgb(2, 46, 21);
+        border-radius: 5%;
+        opacity: 0.9;
+        }
+       
+    .links{
+        margin-left: 40px;
+        margin-top: 40px;
+        }
+        .links ul li{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        }
+        .links ul li a{
+        text-decoration: none;
+        font-size: larger;
+        margin-left: 20px;
+        color: #333;
+        }  
+    
+    .logout{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 10px;
+    }
+    .logout .img1{
+        width: 50px;
+        height: 50px;
+        margin-top: 20px;
+        border-radius: 50%;
+        
+    }
+        .logout p{
+            margin-top: 40px;
+            margin-left: 10px;
+        }
+        .logout .img2{
+        width: 50px;
+        height: 50px;
+        margin-top: 80px;
+        margin-left: -100px;
+        border-radius: 50%;
+        
+    }
+    }    */
